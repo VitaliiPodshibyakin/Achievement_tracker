@@ -16,7 +16,7 @@
 		3FB1F48927E907F200E8497C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1F48827E907F200E8497C /* DataManager.swift */; };
 		3FB1F48D27E9089400E8497C /* FullInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1F48C27E9089400E8497C /* FullInfoViewController.swift */; };
 		3FB1F49027E908E800E8497C /* TitlesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1F48F27E908E800E8497C /* TitlesTableViewController.swift */; };
-		3FB1F49227E9092000E8497C /* GamesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1F49127E9092000E8497C /* GamesListViewController.swift */; };
+		3FB1F49227E9092000E8497C /* AchievementsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1F49127E9092000E8497C /* AchievementsListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		3FB1F48827E907F200E8497C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		3FB1F48C27E9089400E8497C /* FullInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullInfoViewController.swift; sourceTree = "<group>"; };
 		3FB1F48F27E908E800E8497C /* TitlesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesTableViewController.swift; sourceTree = "<group>"; };
-		3FB1F49127E9092000E8497C /* GamesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesListViewController.swift; sourceTree = "<group>"; };
+		3FB1F49127E9092000E8497C /* AchievementsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				3FB1F48F27E908E800E8497C /* TitlesTableViewController.swift */,
-				3FB1F49127E9092000E8497C /* GamesListViewController.swift */,
+				3FB1F49127E9092000E8497C /* AchievementsListViewController.swift */,
 				3FB1F48C27E9089400E8497C /* FullInfoViewController.swift */,
 			);
 			path = ViewControllers;
@@ -174,7 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FB1F49227E9092000E8497C /* GamesListViewController.swift in Sources */,
+				3FB1F49227E9092000E8497C /* AchievementsListViewController.swift in Sources */,
 				3F2A09B027E906B20033F6E9 /* AppDelegate.swift in Sources */,
 				3FB1F48D27E9089400E8497C /* FullInfoViewController.swift in Sources */,
 				3FB1F49027E908E800E8497C /* TitlesTableViewController.swift in Sources */,

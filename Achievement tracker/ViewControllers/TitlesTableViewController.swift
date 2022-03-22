@@ -40,7 +40,7 @@ class TitlesTableViewController: UITableViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let indexPath = self.tableView.indexPathForSelectedRow {
-            let gamesListVC = segue.destination as! GamesListViewController
+            let gamesListVC = segue.destination as! AchievementsListViewController
             gamesListVC.game = games[indexPath.row]
         }
         

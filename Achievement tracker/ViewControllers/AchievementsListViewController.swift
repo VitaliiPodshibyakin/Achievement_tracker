@@ -7,7 +7,7 @@
 
 import UIKit
 
-class GamesListViewController: UITableViewController {
+class AchievementsListViewController: UITableViewController {
     
     var game: Game!
    
@@ -15,15 +15,10 @@ class GamesListViewController: UITableViewController {
         super.viewDidLoad()
         tableView.rowHeight = 70
         navigationItem.title = game.title
-        navigationItem.rightBarButtonItem = editButtonItem
+
     
         
     }
-    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
-        .insert
-    }
-    
-
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -37,7 +32,7 @@ class GamesListViewController: UITableViewController {
         cell.textLabel?.text = achivements.description
         cell.imageView?.image = UIImage(named: achivements.description)
         cell.detailTextLabel?.text = gPoints.description
-        
+
         return cell
         
     }
